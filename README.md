@@ -32,9 +32,15 @@ https://www.guru99.com/images/m2.png
 
 ## Original Program : True
 
-## Mutant Program 1 : out of memory/into infinite loop (Discard)
-## Mutant Program 2: False (mutant is killed) - Good to go
-## Mutant Program 3: True (mutant has survived) - Here we have a problem
+1. Mutant Program 1 : out of memory/into infinite loop (Discard)
+2. Mutant Program 2: False (mutant is killed) - Good to go
+3. Mutant Program 3: True (mutant has survived) - Here we have a problem
+
+
+# Simplistic execution flow:
+1. Mutants are generated in-memory
+2. Tests are selected which will run against these mutants
+3. Tests are executed against these mutants and mutation score is computed.
 
 
 Options: History of mutation testing
