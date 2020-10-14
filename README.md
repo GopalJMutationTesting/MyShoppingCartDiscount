@@ -47,3 +47,9 @@ https://gradle-pitest-plugin.solidsoft.info/
 
 # Things to consider
 ## Cost: At time it is everything
+
+
+# Well how does it work internally
+## We don't need access to the source code.
+## Bytecode is injected to the using the instrumentation API and the mutants are generated in-memory using the ASM's APIs
+
