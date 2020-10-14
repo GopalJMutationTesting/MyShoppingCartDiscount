@@ -43,11 +43,18 @@ https://www.guru99.com/images/m2.png
 3. Tests are executed against these mutants and mutation score is computed.
 
 
-Options: History of mutation testing
+
+# Options for mutation testing: 
+
+## History of mutation testing
+
+For Java/JVM:
 http://pitest.org/
+
+Github:
 https://github.com/hcoles/pitest
 
-
+Gradle Plugin:
 https://gradle-pitest-plugin.solidsoft.info/
 
 
