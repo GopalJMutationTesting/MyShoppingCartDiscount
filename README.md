@@ -56,6 +56,6 @@ https://gradle-pitest-plugin.solidsoft.info/
 
 
 # Well how does it work internally
-## We don't need access to the source code.
-## Bytecode is injected to the using the instrumentation API and the mutants are generated in-memory using the ASM's APIs
+1. We don't need access to the source code.
+2. Bytecode is injected to the using the instrumentation API and the mutants are generated in-memory using the ASM's APIs
 
