@@ -52,7 +52,7 @@ https://gradle-pitest-plugin.solidsoft.info/
 
 
 # Things to consider
-## Cost: At time it is everything
+Well mutation testing is not cheap in terms of execution time.
 
 
 # Well how does it work internally
