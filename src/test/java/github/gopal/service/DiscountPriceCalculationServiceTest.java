@@ -24,4 +24,27 @@ public class DiscountPriceCalculationServiceTest {
         double result = service.calculateDiscountedPrice(200d);
         Assert.assertEquals(result, 160d);
     }
+
+
+    // a = 2
+
+    // mf = 2
+
+    // a * mf = 4
+
+    // a + mf = 4
+
+    @Test
+    public void testCalculateDiscountedPrice2() {
+        double result = service.calculateDiscountedPrice(40d);
+       Assert.assertEquals(result, 40d);
+    }
+
+    @Test
+    public void testCalculateDiscountedPrice3() {
+        double result = service.calculateDiscountedPrice(50d);
+        Assert.assertEquals(result, 50d);
+    }
+
+
 }
